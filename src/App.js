@@ -1,8 +1,11 @@
-import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
 import './App.css';
 import ContactUs from './components/ContactUs';
 import AboutUs from './components/AboutUs';
 import Demo from './components/Demo';
+import Teacher from './components/Teacher';
+
+
+
 function App() {
   const username="abc"
   let useraddress="wakad,pune"
@@ -26,10 +29,14 @@ function App() {
 
     <div className="App">
       <ContactUs/>
-    
+      <AboutUs/>
       <Demo/>
+      <Teacher/>
+      
+      
+      
 
-      <h1>welcome</h1>
+     <h1>welcome</h1>
       <h2>userprofile:{username}</h2>
       <h2>useraddress:{useraddress}</h2>
       <h3>sum:{a+b}</h3>
@@ -57,7 +64,7 @@ function App() {
           
           )  )
       } 
-      </ul>
+      </ul> 
       
     </div>
   );

@@ -11,4 +11,4 @@ class ContactUs extends React.Component
           return <h1>in ContactUs class component</h1>
     }
 }
-export default ContactUs;
+export default ContactUs
